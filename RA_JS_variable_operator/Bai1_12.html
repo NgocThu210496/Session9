@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf8">
+
+    <!-- Title tag -->
+    <title>Bai tap javascript</title>
+
+    <!-- CSS Link Custom -->
+   
+    
+</head>
+
+<body>
+    <script>
+    //bai1: Thực hiện hiển thị thông báo “Tôi yêu Rikkei Academy và thầy Quang đẹp
+        //trai” theo 2 cách viết internal và external
+        //alert("Tôi yêu Rikkei Academy và thầy Quang đẹp trai”");
+
+    //bai2:
+        // let result=confirm("Bạn có phải học viên Rikkei Academy ? ");
+        // let inputName=prompt("Nhap ten hoc vien: ");
+        // let inputId=prompt("Nhap ma hoc vien: ");
+        // result = (result) ? (
+        //     (inputName),(inputId)
+            
+        //     (console.log("Ten hoc vien la: ", inputName + "," + " ma hoc vien la: ",inputId ))
+        // ) 
+        // : (alert("chuong trinh ket thuc"));
+    
+    //bai3: Khai báo hai biến admin và name, nhập giá trị biến name từ bàn phím và gán
+        //giá trị biến name cho admin. Thông báo giá trị biến admin
+        // var inputName=prompt("nhap ten");
+        // var inputAdmin;
+            
+        // inputAdmin=inputName;
+        // document.write("gia tri bien id la ",inputAdmin );
+
+    //bai4: Nhập vào năm sinh của bạn, in ra màn hình console tuổi hiện tại của bạn
+        // var date = new Date();// thoi gian hien tai
+
+        // var day=date.getDate();//ngay hien tai
+        // var month=date.getMonth();//thang hien tai
+        // var namHienTai = date.getFullYear () ;//Lưu năm hiện tại vào biến
+        
+        // var namSinh = Number(prompt("Bạn sinh năm bao nhiêu ? :"));
+        // var age = namHienTai-namSinh;
+        // document.write("Tuổi của bạn bây giờ là : " + age);
+
+    //bai5:Nhập vào hệ số lương (rate), lương cơ bản (basicSalary) và tỷ lệ hoa hồng
+        //(commission) của một nhân viên kinh doanh, in ra lương của nhân viên đó
+        //trên document biết công thức tính lương của nhân viên như sau:
+        //basic = (rate+commission)*basicSalary
+
+        // let rate=Number(prompt("nhap so luong: "));
+        // let basicSalary = Number(prompt("luong co ban: "));
+        // let comMission= Number(prompt("tien hoa hong: "));
+        // let basic = (rate+comMission)*basicSalary;
+
+        // document.write("luong co ban cua ban la: ",basic + "VND");
+
+    //bai6: Nhập vào thông tin sinh viên bao gồm: mã sinh viên, tên sinh viên, tuổi,
+        //điểm html, điểm css, điểm javascript. In ra thông tin sinh viên trên document
+        //  với các thông tin: mã sinh viên, tên sinh viên, tuổi và điểm trung bình
+
+        // let maID=prompt("Ma sinh vien: ");
+        // let nameSv=prompt("Ten Sinh vien: ");
+        // let ageSv=parseInt(prompt("Tuoi cua ban: "));
+
+        // let htmlScores=Number(prompt("Diem mon HTML: "));
+        // let cssScores=Number(prompt("Diem mon CSS: "));
+        // let javaScriptScores=Number(prompt("Diem mon Javascript: "));
+
+        // let averageSum= (htmlScores + cssScores + javaScriptScores)/3;
+
+        // document.write(
+        //     "Ma sinh vien: ",maID + "<br>" + 
+        //     "Ten Sinh vien: ",nameSv + "<br>" + 
+        //     "Tuoi cua ban: ",ageSv + "<br>" + 
+        //     "Diem trung binh 3 mon cua ban la: ", averageSum
+        // );
+
+    //bai7 tính chu vi và diện tích hình chữ nhật
+        //    let chieuDai=Number(prompt("chieu dai: "));
+        //    let chieuRong=Number(prompt("chieu rong: "));
+        //    let chuViCn=(chieuDai+chieuRong)*2;
+        //    let dienTichCn=chieuDai*chieuRong;
+        //    document.write("chu vi hinh CN la: "+chuViCn+ "cm");
+        //    document.write("<br>");
+        //    document.write("Dien tich hinh CN la: "+dienTichCn+ "cm2");
+
+    // //bai8 tính chu vi và diện tích hình tròn
+        // let banKinh= parseInt(prompt("Nhap vao ban kinh: "));
+        // let Pi= 3.14;
+        // let chuVi= banKinh * 2*Pi;
+        // let dienTich=((chuVi)^2)/(4*Pi);
+        //  document.write ("Chu vi hinh tron la: ",chuVi + "<br>");
+        // document.write ("Dien tich hinh tron la: ",dienTich);
+
+    //bai9 Nhập vào 3 số từ bàn phím, in ra tổng 3 số
+        // let a=parseInt(prompt("So a: "));
+        // let b=parseInt(prompt("So b: "));
+        // let c=parseInt(prompt("So c: "));
+        // let sum= a+b+c ;
+        // document.write("Tong 3 so la: ",sum);
+
+    //bai10 .Nhập vào 1 số nguyên, in ra số đó là số chẵn hay lẻ (Sử dụng toán tử 3 ngôi)
+        // let number=parseInt(prompt('Nhập số nguyên; '));
+        // let ketqua =(number % 2==0)? 
+        //     (document.write("la so chan")):
+        //     document.write("la so le");
+
+    //bai11 Nhập vào 3 số, in ra số lớn nhất và số nhỏ nhất (Sử dụng toán tử 3 ngôi)
+        // var a=parseInt(prompt("So a: "));
+        // var b=parseInt(prompt("So b: "));
+        // var c=parseInt(prompt("So c: "));
+
+        // var max = (a>b)? a:b;
+        // var max = (max>c)?max:c;
+        
+        // document.write("so lon nhat cua 3 so la:",max);    
+       
+    //bai12 Nhập vào 1 số có 3 chữ số, in ra số đảo ngược (567→765) (Dùng Math.floor
+        //để làm tròn xuống)
+        // 567
+        // 7 đơn vị
+        // 6 chục
+        // 5 trăm
+
+        // let hangTram = Math.floor(soCo3ChuSo / 100);
+        // let hangChuc = Math.floor((soCo3ChuSo % 100) / 10);
+        // let hangDonVi = (soCo3ChuSo % 100) % 10;
+
+
+        // document.write("Số gốc là: " + soCo3ChuSo);
+        // document.write("<br>");
+        // document.write("Số gốc đảo ngược là: " + hangDonVi + hangChuc + hangTram);
+
+    //bai13 Nhập vào 1 số, in ra số dư trong phép chia 3 (Sử dụng toán tử 3 ngôi lồng nhau)
+   
+    </script>
+</body>
+
+</html>
